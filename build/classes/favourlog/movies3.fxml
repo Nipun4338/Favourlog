@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="649.0" prefWidth="1135.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="favourlog.Movies3Controller">
+   <children>
+      <ImageView fitHeight="754.0" fitWidth="1156.0" layoutX="-20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@movies%20background.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="school" layoutX="24.0" layoutY="122.0" mnemonicParsing="false" prefHeight="360.0" prefWidth="248.0" text="Button" />
+      <ImageView fitHeight="367.0" fitWidth="248.0" layoutX="24.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@BoardingSchl.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="showman" layoutX="301.0" layoutY="122.0" mnemonicParsing="false" prefHeight="360.0" prefWidth="248.0" text="Button" />
+      <ImageView fitHeight="438.0" fitWidth="255.0" layoutX="297.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GrtShowman.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="jurassic" layoutX="588.0" layoutY="122.0" mnemonicParsing="false" prefHeight="367.0" prefWidth="255.0" text="Button" />
+      <ImageView fitHeight="385.0" fitWidth="266.0" layoutX="578.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@JurrassicWorld.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="thor" layoutX="872.0" layoutY="116.0" mnemonicParsing="false" prefHeight="373.0" prefWidth="248.0" text="Button" />
+      <ImageView fitHeight="426.0" fitWidth="255.0" layoutX="868.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Thor_Ragnarok.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#1e5edd" layoutX="514.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MOVIES">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Hyperlink layoutX="48.0" layoutY="530.0" text="BOARDING SCHOOL" />
+      <Hyperlink layoutX="329.0" layoutY="530.0" text="THE GREATEST SHOWMAN" />
+      <Hyperlink layoutX="617.0" layoutY="530.0" text="JURASSIC WORLD(FALLEN)" />
+      <Hyperlink layoutX="927.0" layoutY="530.0" text="THOR(RAGNAROK)" />
+      <Button fx:id="backmovies3" mnemonicParsing="false" onAction="#back" prefHeight="38.0" prefWidth="121.0" text="Back" />
+      <Button fx:id="nextmovies3" layoutX="1040.0" layoutY="612.0" mnemonicParsing="false" onAction="#next" prefHeight="38.0" prefWidth="96.0" text="Next" />
+   </children>
+</AnchorPane>

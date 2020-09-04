@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="582.0" prefWidth="1050.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="favourlog.FXMLDocumentController">
+    <children>
+      <ImageView fx:id="favourlog" fitHeight="592.0" fitWidth="1246.0" layoutY="-8.0" onDragDetected="#handleButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@FAVOURLOG%20PIC%201.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="signin" layoutX="802.0" layoutY="328.0" mnemonicParsing="false" onAction="#signIn" prefHeight="31.0" prefWidth="128.0" text="SIGN IN" textFill="#590c0d" />
+        <Button fx:id="createaccount" layoutX="804.0" layoutY="373.0" onAction="#createAccount" prefHeight="31.0" prefWidth="128.0" text="Create Account" textFill="#230acf" />
+      <TextField fx:id="username" layoutX="793.0" layoutY="191.0" onAction="#handleButtonAction" />
+      <TextField fx:id="password" layoutX="793.0" layoutY="259.0" onAction="#handleButtonAction" />
+      <Text fill="#f8f5f5" layoutX="704.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#eeebeb" layoutX="704.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" wrappingWidth="74.9267578125">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Label fx:id="label" layoutX="904.0" layoutY="427.0" onDragDetected="#handleButtonAction" prefHeight="31.0" prefWidth="143.0" textFill="#e10712">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
